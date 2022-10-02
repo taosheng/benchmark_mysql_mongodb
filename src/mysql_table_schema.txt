@@ -1,0 +1,8 @@
+
+
+CREATE TABLE IF NOT EXISTS test1 (
+    ruuid VARCHAR(100) PRIMARY KEY,
+    rint BIGINT, 
+    description TEXT,
+    index n1 (rint)
+)  ENGINE=INNODB;
